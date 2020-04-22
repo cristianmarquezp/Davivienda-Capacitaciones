@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular1';
+  
+
+  miFuncion(){
+    alert("Accion disparada!");
+  }
 }
