@@ -9,7 +9,9 @@ export class AppComponent {
   title = 'angular1';
   
 
-  miFuncion(){
-    alert("Accion disparada!");
+  miFuncion(e){
+    alert("Accion disparada!" + e);
   }
 }
+
+
