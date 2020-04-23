@@ -1,7 +1,11 @@
 <h1>Davivienda</h1>
 
 
-<input type="text" #valorIngresado>
+<input type="text" #valorIngresado [(ngModel)] = "nombre">
+
+{{nombre}}
+
+
 <button (click) = "miFuncion(valorIngresado.value)"> Click me! </button>
 
 

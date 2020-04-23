@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular1';
-  
+  public nombre = "";
 
   miFuncion(e){
     alert("Accion disparada!" + e);
